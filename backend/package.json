@@ -1,18 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for EMI Financing Application",
+  "main": "server.js",
   "scripts": {
     
   "start": "node server.js",
-  "dev": "nodemon server.js"
+  "dev": "nodemon server.js",
+  "seed": "node seed.js"
+
 
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
