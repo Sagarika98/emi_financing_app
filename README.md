@@ -2,7 +2,12 @@
 
 A full-stack EMI financing web application built with **React.js** (Frontend), **Node.js** (Backend), and **MongoDB** (Database). Users can view products with multiple EMI plans backed by mutual funds.
 
-<img width="514" height="732" alt="image" src="https://github.com/user-attachments/assets/8620b4fb-8305-4220-b819-06e0e9ba9d7d" />
+<img width="508" height="735" alt="image" src="https://github.com/user-attachments/assets/dd7285ac-eb3a-4060-81a0-61d89332b44a" />
+
+<img width="510" height="739" alt="image" src="https://github.com/user-attachments/assets/634c01ac-b4cd-49d0-bf06-f7e498523925" />
+
+
+
 
 
 #Table of Contents
