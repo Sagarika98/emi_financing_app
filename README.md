@@ -211,11 +211,52 @@ POST /api/seed
 ```
 
 ---
+###Setup and run instructions-
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/your-username/emi-financing-app.git
+cd emi-financing-app
+```
 
-## Technologies Used
-Frontend : React.js, CSS3, Axios, React Router
-Backend  : Node.js, Express.js, MongoDB, Mongoose
-Database : MongoDB Atlas / MongoDB Compass
-Tools    : Git, GitHub, VSCode, Postman
-Deploy   : Vercel (Frontend)
+### Step 2: Backend Setup (Node.js + MongoDB)
+
+```bash
+# Go to backend folder
+cd backend
+
+# Install Node.js dependencies
+npm install express mongoose cors dotenv
+
+# Create .env file
+echo "PORT=5000
+MONGODB_URI=mongodb://localhost:27017/emi_financing" > .env
+
+# Seed MongoDB database
+node seed.js
+
+# Start Node.js server
+npm start
+```
+
+✅ Backend running at: `http://localhost:5000`
+
+### Step 3: Frontend Setup (React)
+
+```bash
+# Open new terminal
+cd frontend
+
+# Install React dependencies
+npm install react-router-dom axios
+
+# Create .env file
+echo "REACT_APP_API_URL=http://localhost:5000" > .env
+
+# Start React app
+npm start
+```
+
+✅ Frontend running at: `http://localhost:3000`
+
+---
 
