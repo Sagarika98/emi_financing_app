@@ -8,7 +8,7 @@ A full-stack EMI financing web application built with **React.js** (Frontend), *
 - [Seed Data](#-seed-data)
 - [API Endpoints](#-api-endpoints)
 - [Setup Instructions](#-setup-instructions)
-- [Features](#-features)
+- [Schema Used](#-features)
 
   
 #Tech Stack
