@@ -1,4 +1,5 @@
-#EMI Financing Application-
+#EMI Financing Application
+
 A full-stack EMI financing web application built with **React.js** (Frontend), **Node.js** (Backend), and **MongoDB** (Database). Users can view products with multiple EMI plans backed by mutual funds.
 
 #Table of Contents
